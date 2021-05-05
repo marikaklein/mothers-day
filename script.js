@@ -71,35 +71,5 @@ function showBooks() {
 			bookCover.classList.toggle("active");
 		})
 
-		var bookYears = book.fields.year;
-		bookYears.forEach(function(year) {
-			bookContainer.classList.add(year)
-		})
-
-		var filterOne = document.querySelector('.2020');
-		filterOne.addEventListener("click", function() {
-
-			if (bookContainer.classList.contains("2020")) {
-				bookContainer.style.display = "block";
-			} else {
-				bookContainer.style.display = "none";
-			}
-		})
-
-		var filterTwo = document.querySelector('.2021');
-		filterTwo.addEventListener("click", function() {
-
-			if (bookContainer.classList.contains("2021")) {
-				bookContainer.style.display = "block";
-			} else {
-				bookContainer.style.display = "none";
-			}
-		})
-
-		var filterReset = document.querySelector('.js-reset')
-		filterReset.addEventListener("click", function(){
-				bookContainer.style.display = "block";
-			})
-
 	});
 }
