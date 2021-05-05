@@ -3,6 +3,25 @@ body {
   color: purple;
 }
 
+a {
+  font-family: 'Cormorant Upright', serif;
+  font-weight: bolder;
+  font-size: 35px;
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.link {
+  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
 h1 {
   font-family: 'Cormorant Upright', serif;
   font-weight: bold;
@@ -27,16 +46,6 @@ h3 {
   margin: 0px;
   margin-top: 3px;
   margin-bottom: 3px;
-}
-
-h4 {
-  font-family: 'Cormorant Upright', serif;
-  font-weight: bolder;
-  font-size: 30px;
-  margin: 0px;
-  margin-top: 16px;
-  margin-bottom: 3px;
-  text-align: center;
 }
 
 p {
